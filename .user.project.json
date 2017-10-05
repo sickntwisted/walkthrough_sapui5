@@ -1,6 +1,41 @@
 {
   "run": [
     {
+      "filePath": "/webapp/index.html",
+      "previewMode": 1,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": null,
+      "ui5VerSource": null,
+      "isDefaultVersion": 0,
+      "urlParameters": [],
+      "hashParameter": "",
+      "backendSystem": [],
+      "_metadata": {
+        "id": 1312963,
+        "runnerId": "webapprunner",
+        "displayName": "Run index.html",
+        "lastRunTimeStamp": 1507197339623
+      }
+    },
+    {
+      "filePath": "/webapp/test/integration/opaTests.qunit.html",
+      "previewMode": 1,
+      "dataMode": 1,
+      "ui5ActiveVersion": null,
+      "ui5VerSource": null,
+      "isDefaultVersion": 0,
+      "workspace": "withoutWorkspace",
+      "urlParameters": [],
+      "backendSystem": [],
+      "_metadata": {
+        "id": 4821905,
+        "runnerId": "qunitrunner",
+        "displayName": "Run opaTests.qunit.html",
+        "lastRunTimeStamp": 1507196399357
+      }
+    },
+    {
       "filePath": "/webapp/test/mockServer.html",
       "previewMode": 1,
       "dataMode": 0,
@@ -22,41 +57,6 @@
         "runnerId": "webapprunner",
         "displayName": "Configuration",
         "lastRunTimeStamp": 1507190677876
-      }
-    },
-    {
-      "filePath": "/webapp/index.html",
-      "previewMode": 1,
-      "dataMode": 1,
-      "workspace": "withoutWorkspace",
-      "ui5ActiveVersion": null,
-      "ui5VerSource": null,
-      "isDefaultVersion": 0,
-      "urlParameters": [],
-      "hashParameter": "",
-      "backendSystem": [],
-      "_metadata": {
-        "id": 1312963,
-        "runnerId": "webapprunner",
-        "displayName": "Run index.html",
-        "lastRunTimeStamp": 1507190417570
-      }
-    },
-    {
-      "filePath": "/webapp/test/integration/opaTests.qunit.html",
-      "previewMode": 1,
-      "dataMode": 1,
-      "ui5ActiveVersion": null,
-      "ui5VerSource": null,
-      "isDefaultVersion": 0,
-      "workspace": "withoutWorkspace",
-      "urlParameters": [],
-      "backendSystem": [],
-      "_metadata": {
-        "id": 4821905,
-        "runnerId": "qunitrunner",
-        "displayName": "Run opaTests.qunit.html",
-        "lastRunTimeStamp": 1507188290560
       }
     },
     {

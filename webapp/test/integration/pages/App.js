@@ -8,9 +8,11 @@ function (Opa5) {
 			actions: {
 				iPressTheSayHelloWithDialogButton: function () {
 					return this.waitFor({
-						controlType: "sap.m.Button",
+						//controlType: "sap.m.Button",
+						id: "hellobutton",
+						viewName: "HelloPanel",
 						success: function (aButtons) {
-							aButtons[0].$().trigger("tap");
+							aButtons.$().trigger("tap");
 						},
 						errorMessage: "Did not find the helloDialogButton button on the app page"
 					});
